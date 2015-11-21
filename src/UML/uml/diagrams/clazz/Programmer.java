@@ -4,11 +4,11 @@
 package uml.diagrams.clazz;
 
 /**
- * ÀàÍ¼ÖĞµÄProgrammerÀàÔ´Âë
+ * ç±»å›¾ä¸­çš„Programmerç±»æºç 
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  * 
- * ´´½¨ÈÕÆÚ£º2010-1-10
+ * åˆ›å»ºæ—¥æœŸï¼š2010-1-10
  */
 public class Programmer {
 

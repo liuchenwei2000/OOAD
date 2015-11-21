@@ -13,11 +13,11 @@ import mvc.framework.view.View;
 import mvc.util.ComponentBuilder;
 
 /**
- * Âë ÊÓÍ¼
+ * ç  è§†å›¾
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-11-3
+ * åˆ›å»ºæ—¥æœŸï¼š2008-11-3
  */
 public class YardView extends View {
 
@@ -42,7 +42,7 @@ public class YardView extends View {
 
 	private JLabel getLabel() {
 		if (label == null) {
-			label = ComponentBuilder.buildCommonLabel("Âë");
+			label = ComponentBuilder.buildCommonLabel("ç ");
 		}
 		return label;
 	}
@@ -55,7 +55,7 @@ public class YardView extends View {
 	}
 
 	/**
-	 * ¸ù¾İÄ£ĞÍµÄÃ×»»Ëã³ÉÓ¢³ßÈ»ºóË¢ĞÂÏÔÊ¾
+	 * æ ¹æ®æ¨¡å‹çš„ç±³æ¢ç®—æˆè‹±å°ºç„¶ååˆ·æ–°æ˜¾ç¤º
 	 * 
 	 * @see mvc.framework.view.View#updateView()
 	 */

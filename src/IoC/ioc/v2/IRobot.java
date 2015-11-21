@@ -4,16 +4,16 @@
 package ioc.v2;
 
 /**
- * Robot½Ó¿Ú
+ * Robotæ¥å£
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2009-5-12
+ * åˆ›å»ºæ—¥æœŸï¼š2009-5-12
  */
 public interface IRobot {
 
 	/**
-	 * ¸ù¾İCommandÈ¥ÄÃ¶«Î÷
+	 * æ ¹æ®Commandå»æ‹¿ä¸œè¥¿
 	 */
 	public Object fetchOnCommand() throws CommandException;
 }

@@ -4,16 +4,16 @@
 package ioc.v2;
 
 /**
- * »úÆ÷ÈËÃüÁî½Ó¿Ú
+ * æœºå™¨äººå‘½ä»¤æ¥å£
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2009-5-12
+ * åˆ›å»ºæ—¥æœŸï¼š2009-5-12
  */
 public interface ICommand {
 
 	/**
-	 * ÄÃ¶«Î÷
+	 * æ‹¿ä¸œè¥¿
 	 */
 	public Object fetch() throws CommandException;
 }

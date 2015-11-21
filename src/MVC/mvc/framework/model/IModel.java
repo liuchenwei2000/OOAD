@@ -6,32 +6,32 @@ package mvc.framework.model;
 import mvc.framework.view.IView;
 
 /**
- * MVC½á¹¹ÖĞµÄÄ£ĞÍ½Ó¿Ú
+ * MVCç»“æ„ä¸­çš„æ¨¡å‹æ¥å£
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-10-15
+ * åˆ›å»ºæ—¥æœŸï¼š2008-10-15
  */
 public interface IModel {
 
 	/**
-	 * ÏòÄ£ĞÍÖĞ×¢²á²ÎÊıÊÓÍ¼
+	 * å‘æ¨¡å‹ä¸­æ³¨å†Œå‚æ•°è§†å›¾
 	 * 
 	 * @param view
-	 *            ÊÓÍ¼
+	 *            è§†å›¾
 	 */
 	public void addView(IView view);
 	
 	/**
-	 * É¾³ıÄ£ĞÍÖĞ×¢²áµÄ²ÎÊıÊÓÍ¼
+	 * åˆ é™¤æ¨¡å‹ä¸­æ³¨å†Œçš„å‚æ•°è§†å›¾
 	 * 
 	 * @param view
-	 *            ÊÓÍ¼
+	 *            è§†å›¾
 	 */
 	public void deleteView(IView view);
 
 	/**
-	 * Í¨ÖªÊÓÍ¼Ä£ĞÍ±ä¸ü
+	 * é€šçŸ¥è§†å›¾æ¨¡å‹å˜æ›´
 	 */
 	public void notifyViews();
 }

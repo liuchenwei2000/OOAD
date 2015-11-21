@@ -15,11 +15,11 @@ import mvc.framework.view.View;
 import mvc.util.ComponentBuilder;
 
 /**
- * Ã× ÊÓÍ¼
+ * ç±³ è§†å›¾
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-11-3
+ * åˆ›å»ºæ—¥æœŸï¼š2008-11-3
  */
 public class MeterView extends View {
 
@@ -46,7 +46,7 @@ public class MeterView extends View {
 
 	private JLabel getLabel() {
 		if (label == null) {
-			label = ComponentBuilder.buildCommonLabel("Ã×");
+			label = ComponentBuilder.buildCommonLabel("ç±³");
 		}
 		return label;
 	}
@@ -60,7 +60,7 @@ public class MeterView extends View {
 
 	protected JButton getButton() {
 		if (button == null) {
-			button = ComponentBuilder.buildCommonButton("»»Ëã");
+			button = ComponentBuilder.buildCommonButton("æ¢ç®—");
 		}
 		return button;
 	}
@@ -75,7 +75,7 @@ public class MeterView extends View {
 	}
 
 	/**
-	 * Ã»ÓĞ¶¯×÷
+	 * æ²¡æœ‰åŠ¨ä½œ
 	 * 
 	 * @see mvc.framework.view.View#updateView()
 	 */

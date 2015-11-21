@@ -4,32 +4,32 @@
 package principle.LoD.DIP;
 
 /**
- * Ä³ÈËÅóÓÑÑİÊ¾Àà
+ * æŸäººæœ‹å‹æ¼”ç¤ºç±»
  * <p>
- * Ê¹ÓÃÒÀÀµµ¹ÖÃÔ­Ôò¿ÉÒÔ¿Ë·şÏÁÒåµÏÃ×ÌØ·¨ÔòµÄÈ±µã
+ * ä½¿ç”¨ä¾èµ–å€’ç½®åŸåˆ™å¯ä»¥å…‹æœç‹­ä¹‰è¿ªç±³ç‰¹æ³•åˆ™çš„ç¼ºç‚¹
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  * 
- * ´´½¨ÈÕÆÚ£º2010-1-31
+ * åˆ›å»ºæ—¥æœŸï¼š2010-1-31
  */
 public class SomeoneFriendDemo {
 
 }
 
 /**
- * Ä³ÈËÀà
+ * æŸäººç±»
  */
 class Someone {
 
 	/**
-	 * ·½·¨µÄ²ÎÊıÊÇFriend¶ÔÏó£¬ËùÒÔSomeoneºÍFriendÊÇÅóÓÑ
+	 * æ–¹æ³•çš„å‚æ•°æ˜¯Friendå¯¹è±¡ï¼Œæ‰€ä»¥Someoneå’ŒFriendæ˜¯æœ‹å‹
 	 */
 	void operation1(Friend friend) {
 		/*
-		 * ·½·¨µÄÊµÏÖ×ñÑ­ÒÀÀµµ¹ÖÃÔ­Ôò£º
-		 * SomeoneºÍIStranger½¨Á¢ÁËÅóÓÑ¹ØÏµ£¬ÕâÑùµÄºÃ´¦ÊÇFriend¿ÉÒÔËæÊ±½«¾ßÌåIStranger¶ÔÏó»»µô
-		 * Ö»ÒªĞÂµÄ¾ßÌåIStranger¾ßÓĞÏàÍ¬µÄ³éÏóÀàĞÍ£¬ÄÇÃ´Someone¾ÍÎŞ·¨Çø·ÖËüÃÇ
-		 * Õâ¾ÍÔÊĞíIStrangerµÄ¾ßÌåÊµÏÖ¿ÉÒÔ¶ÀÁ¢ÓÚSomeone¶ø±ä»¯£¬´Ó¶øÊ¹ËüÃÇÍÑñî
+		 * æ–¹æ³•çš„å®ç°éµå¾ªä¾èµ–å€’ç½®åŸåˆ™ï¼š
+		 * Someoneå’ŒIStrangerå»ºç«‹äº†æœ‹å‹å…³ç³»ï¼Œè¿™æ ·çš„å¥½å¤„æ˜¯Friendå¯ä»¥éšæ—¶å°†å…·ä½“IStrangerå¯¹è±¡æ¢æ‰
+		 * åªè¦æ–°çš„å…·ä½“IStrangerå…·æœ‰ç›¸åŒçš„æŠ½è±¡ç±»å‹ï¼Œé‚£ä¹ˆSomeoneå°±æ— æ³•åŒºåˆ†å®ƒä»¬
+		 * è¿™å°±å…è®¸IStrangerçš„å…·ä½“å®ç°å¯ä»¥ç‹¬ç«‹äºSomeoneè€Œå˜åŒ–ï¼Œä»è€Œä½¿å®ƒä»¬è„±è€¦
 		 */
 		IStranger stanger = friend.provide();
 		stanger.operation3();
@@ -37,11 +37,11 @@ class Someone {
 }
 
 /**
- * Ä³ÈËµÄÅóÓÑÀà
+ * æŸäººçš„æœ‹å‹ç±»
  */
 class Friend {
 
-	// Friend³ÖÓĞÒ»¸öStranger¶ÔÏó£¬ËùÒÔFriendºÍStrangerÊÇÅóÓÑ
+	// FriendæŒæœ‰ä¸€ä¸ªStrangerå¯¹è±¡ï¼Œæ‰€ä»¥Friendå’ŒStrangeræ˜¯æœ‹å‹
 	private IStranger stranger = new Stranger();
 
 	IStranger provide() {
@@ -50,7 +50,7 @@ class Friend {
 }
 
 /**
- * Ä°ÉúÈË½Ó¿Ú
+ * é™Œç”Ÿäººæ¥å£
  */
 interface IStranger {
 	
@@ -58,7 +58,7 @@ interface IStranger {
 }
 
 /**
- * ¶ÔÄ³ÈË¶øÑÔµÄÄ°ÉúÈËÀà
+ * å¯¹æŸäººè€Œè¨€çš„é™Œç”Ÿäººç±»
  */
 class Stranger implements IStranger {
 

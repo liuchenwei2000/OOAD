@@ -4,22 +4,22 @@
 package ioc.v1;
 
 /**
- * »úÆ÷ÈËÀà
+ * æœºå™¨äººç±»
  * 
- * Éè¼ÆË¼Â·£º
- * 1£¬RobotÓÐÒ»¸öCupCommand
- * 2£¬CupCommandÓÐfetch()·½·¨·µ»ØCup
- * 3£¬RobotµÄfetchCup()·µ»ØCup
+ * è®¾è®¡æ€è·¯ï¼š
+ * 1ï¼ŒRobotæœ‰ä¸€ä¸ªCupCommand
+ * 2ï¼ŒCupCommandæœ‰fetch()æ–¹æ³•è¿”å›žCup
+ * 3ï¼ŒRobotçš„fetchCup()è¿”å›žCup
  * 
- * Ä¿Ç°RobotµÄÖ÷ÒªÎÊÌâÊÇÈçºÎ»ñµÃCupCommand
- * ²»¹ÜÔõÃ´»ñµÃ£¬Ã¿¸öRobot¶¼Òª×Ô¼º¸ºÔð»ñµÃCupCommand
- * ËùÒÔ£¬ÎÞ·¨ÍêÈ«¹ÂÁ¢µÄ²âÊÔRobotÀà£¬Ã¿µ±²âÊÔRobotÀàµÄÊ±ºò¶¼¼ä½ÓµØ²âÊÔÁËCupCommand
- * ÕâÊÇ½ôñîºÏµÄÌåÏÖ£¬RobotºÍCupCommandñîºÏÌ«½ôÁË
- * ÓÐÒ»¸öRobot¾Í±ØÓÐÒ»¸öCupCommand
+ * ç›®å‰Robotçš„ä¸»è¦é—®é¢˜æ˜¯å¦‚ä½•èŽ·å¾—CupCommand
+ * ä¸ç®¡æ€Žä¹ˆèŽ·å¾—ï¼Œæ¯ä¸ªRobotéƒ½è¦è‡ªå·±è´Ÿè´£èŽ·å¾—CupCommand
+ * æ‰€ä»¥ï¼Œæ— æ³•å®Œå…¨å­¤ç«‹çš„æµ‹è¯•Robotç±»ï¼Œæ¯å½“æµ‹è¯•Robotç±»çš„æ—¶å€™éƒ½é—´æŽ¥åœ°æµ‹è¯•äº†CupCommand
+ * è¿™æ˜¯ç´§è€¦åˆçš„ä½“çŽ°ï¼ŒRobotå’ŒCupCommandè€¦åˆå¤ªç´§äº†
+ * æœ‰ä¸€ä¸ªRobotå°±å¿…æœ‰ä¸€ä¸ªCupCommand
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  * 
- * ´´½¨ÈÕÆÚ£º2009-5-12
+ * åˆ›å»ºæ—¥æœŸï¼š2009-5-12
  */
 public class Robot {
 

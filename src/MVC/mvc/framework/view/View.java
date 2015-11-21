@@ -9,14 +9,14 @@ import mvc.framework.controller.IController;
 import mvc.framework.model.IModel;
 
 /**
- * MVC½á¹¹ÖĞµÄÊÓÍ¼Ä¬ÈÏÊµÏÖ
+ * MVCç»“æ„ä¸­çš„è§†å›¾é»˜è®¤å®ç°
  * 
- * ×ÓÀàÖĞÌí¼ÓÊµ¼ÊÒâÒåµÄ¿Ø¼şºÍ²Ù×÷
- * ¸Ã»ùÀàÖ÷Òª¹¹½¨ÁËÊÓÍ¼ºÍÄ£ĞÍ¡¢¿ØÖÆÆ÷¼äµÄ¹ØÏµ
+ * å­ç±»ä¸­æ·»åŠ å®é™…æ„ä¹‰çš„æ§ä»¶å’Œæ“ä½œ
+ * è¯¥åŸºç±»ä¸»è¦æ„å»ºäº†è§†å›¾å’Œæ¨¡å‹ã€æ§åˆ¶å™¨é—´çš„å…³ç³»
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-10-15
+ * åˆ›å»ºæ—¥æœŸï¼š2008-10-15
  */
 public abstract class View extends JPanel implements IView {
 
@@ -25,23 +25,23 @@ public abstract class View extends JPanel implements IView {
 	 */
 	private static final long serialVersionUID = 5114765333100218744L;
 
-	private IModel model;// ×¢²áµÄÄ£ĞÍ
+	private IModel model;// æ³¨å†Œçš„æ¨¡å‹
 	
-	private IController controller;// ¹ØÁªµÄ¿ØÖÆÆ÷
+	private IController controller;// å…³è”çš„æ§åˆ¶å™¨
 	
 	public View(){
 		super();
 	}
 
 	/**
-	 * @return ×¢²áµÄÄ£ĞÍ
+	 * @return æ³¨å†Œçš„æ¨¡å‹
 	 */
 	public IModel getModel() {
 		return model;
 	}
 
 	/**
-	 * ÏòÄ£ĞÍÖĞ×¢²á±¾ÊÓÍ¼
+	 * å‘æ¨¡å‹ä¸­æ³¨å†Œæœ¬è§†å›¾
 	 * 
 	 * @param model
 	 */
@@ -51,24 +51,24 @@ public abstract class View extends JPanel implements IView {
 	}
 
 	/**
-	 * @return ÊÓÍ¼µÄ¿ØÖÆÆ÷
+	 * @return è§†å›¾çš„æ§åˆ¶å™¨
 	 */
 	public IController getController() {
 		return controller;
 	}
 
 	/**
-	 * ¸øÊÓÍ¼ÉèÖÃ¿ØÖÆÆ÷
+	 * ç»™è§†å›¾è®¾ç½®æ§åˆ¶å™¨
 	 * 
 	 * @param controller
-	 *            ¿ØÖÆÆ÷
+	 *            æ§åˆ¶å™¨
 	 */
 	public void setController(IController controller) {
 		this.controller = controller;
 	}
 
 	/**
-	 * ¸ù¾İÄ£ĞÍ¸üĞÂÊÓÍ¼(×ÓÀàÊµÏÖ¾ßÌå¸üĞÂ·½·¨)
+	 * æ ¹æ®æ¨¡å‹æ›´æ–°è§†å›¾(å­ç±»å®ç°å…·ä½“æ›´æ–°æ–¹æ³•)
 	 *
 	 * @see mvc.framework.view.IView#updateView()
 	 */

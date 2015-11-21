@@ -4,17 +4,17 @@
 package ioc.v2;
 
 /**
- * »úÆ÷ÈËÀà
+ * æœºå™¨äººç±»
  * 
- * Éè¼ÆË¼Â·£º
- * 1£¬RobotÓÐÒ»¸öICommand
- * 2£¬ICommandÍ¨¹ýsetterÓÉÍâ²¿¿ØÖÆ´«Èë¶ø²»ÊÇÓÉRobot×Ô¼ºÈ¥»ñÈ¡
+ * è®¾è®¡æ€è·¯ï¼š
+ * 1ï¼ŒRobotæœ‰ä¸€ä¸ªICommand
+ * 2ï¼ŒICommandé€šè¿‡setterç”±å¤–éƒ¨æŽ§åˆ¶ä¼ å…¥è€Œä¸æ˜¯ç”±Robotè‡ªå·±åŽ»èŽ·å–
  * 
- * Õâ¾ÍÊÇ¿ØÖÆ·´×ª£ºÐ­µ÷ÒÀÀµ¶ÔÏóÖ®¼äºÏ×÷µÄÔðÈÎ´Ó¶ÔÏó×ÔÉíÖÐ×ªÒÆ³öÀ´
+ * è¿™å°±æ˜¯æŽ§åˆ¶åè½¬ï¼šåè°ƒä¾èµ–å¯¹è±¡ä¹‹é—´åˆä½œçš„è´£ä»»ä»Žå¯¹è±¡è‡ªèº«ä¸­è½¬ç§»å‡ºæ¥
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  * 
- * ´´½¨ÈÕÆÚ£º2009-5-12
+ * åˆ›å»ºæ—¥æœŸï¼š2009-5-12
  */
 public class Robot implements IRobot {
 

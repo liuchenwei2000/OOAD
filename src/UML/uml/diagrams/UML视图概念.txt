@@ -1,24 +1,24 @@
-                         UML��ͼ����
+                         UML视图概念
 
-��ͼֻ�Ǳ���ϵͳĳһ����������UML��ģ������Ӽ���
+视图只是表达系统某一方面特征的UML建模组件的子集。
 
-UML�������¼���ͼ��
-��ͼ������ͼ������ͼ������ͼ��״̬ͼ���ͼ��˳��ͼ��Э��ͼ��
+UML包括如下几种图：
+类图、用例图、构件图、部署图、状态图、活动图、顺序图、协作图。
 
 
-���ǿ��Ա���Ϊ���ࣺ
+它们可以被分为两类：
 
-1.�ṹ��ͼ
+1.结构型图
 
-��ͼ(Class Diagram)������һЩ�ࡢ���ľ�̬�ṹ������֮��ľ�̬��ϵ��
-����ͼ(Object Diagram)��������һ��ϵͳ�еĶ���Ŀ��ա�
-����ͼ(Component Diagram)���������Բ������������(����EJB��Jar�ļ�)֮��ľ�̬��ϵ��
-����ͼ(Deployment Diagram)������һ��ϵͳ�����˽ṹ��
+类图(Class Diagram)：描述一些类、包的静态结构和它们之间的静态关系。
+对象图(Object Diagram)：给出了一个系统中的对象的快照。
+构件图(Component Diagram)：描述可以部署的软件构件(比如EJB、Jar文件)之间的静态关系。
+部署图(Deployment Diagram)：描述一个系统的拓扑结构。
 
-2.��Ϊ��ͼ
+2.行为型图
 
-����ͼ(User Case Diagram)������һϵ�еĽ�ɫ������������֮��Ĺ�ϵ������������һ��ϵͳ�����������Ϊ���н�ģ��
-�ͼ(Activity Diagram)��������ͬ����֮��Ķ�̬�����������ͼ����������Ϊ�ľ��廯��
-״̬ͼ(State Diagram)������һϵ�ж�����ڲ�״̬��״̬�ı仯��ת�ơ�ע��һ���಻����������ͬ��״̬ͼ��
-ʱ��ͼ(Sequence Diagram)����һ���໥����ͼ��������ͬ����֮����Ϣ���ݵ�ʱ��
-����ͼ(Collaboration Diagram)����һ���໥����ͼ������������Ϣ��������Ϣ��һϵ�ж������֯�ṹ��
+用例图(User Case Diagram)：描述一系列的角色和用例及它们之间的关系。可以用来对一个系统的最基本的行为进行建模。
+活动图(Activity Diagram)：描述不同过程之间的动态解除。是用例图所描述的行为的具体化。
+状态图(State Diagram)：描述一系列对象的内部状态及状态的变化和转移。注意一个类不能有两个不同的状态图。
+时序图(Sequence Diagram)：是一种相互作用图，描述不同对象之间信息传递的时序。
+合作图(Collaboration Diagram)：是一种相互作用图，描述发出消息、接收消息的一系列对象的组织结构。

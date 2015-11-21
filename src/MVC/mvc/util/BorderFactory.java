@@ -10,15 +10,15 @@ import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 
 /**
- * Border¹¤³§
+ * Borderå·¥åŽ‚
  *
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨Ê±¼ä£º2008-10-9
+ * åˆ›å»ºæ—¶é—´ï¼š2008-10-9
  */
 public class BorderFactory {
 
-	/** ÏÊÑÞµÄÑÕÉ« */
+	/** é²œè‰³çš„é¢œè‰² */
 	private static final Color FRESH = new Color(0X7f9db9);
 
 	private BorderFactory() {
@@ -26,27 +26,27 @@ public class BorderFactory {
 	}
 
 	/**
-	 * ·µ»Ø Ê¹ÓÃÁËÏÊÑÞÑÕÉ«µÄTitledBorder
+	 * è¿”å›ž ä½¿ç”¨äº†é²œè‰³é¢œè‰²çš„TitledBorder
 	 * 
 	 * @param title
-	 *            ±êÌâ
+	 *            æ ‡é¢˜
 	 */
 	public static TitledBorder createTitledBorder(String title) {
 		TitledBorder border = new TitledBorder(title);
-		border.setTitleFont(new Font("ËÎÌå", Font.PLAIN, 12));
+		border.setTitleFont(new Font("å®‹ä½“", Font.PLAIN, 12));
 		border.setTitleColor(FRESH);
 		return border;
 	}
 
 	/**
-	 * @return Ê¹ÓÃÁËÏÊÑÞÑÕÉ«µÄLineBorder
+	 * @return ä½¿ç”¨äº†é²œè‰³é¢œè‰²çš„LineBorder
 	 */
 	public static LineBorder createLineBorder() {
 		return new LineBorder(FRESH);
 	}
 
 	/**
-	 * @return ÏÊÑÞµÄÑÕÉ«
+	 * @return é²œè‰³çš„é¢œè‰²
 	 */
 	public static Color getFreshColor() {
 		return FRESH;

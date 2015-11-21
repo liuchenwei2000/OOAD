@@ -9,18 +9,18 @@ import java.util.List;
 import mvc.framework.view.IView;
 
 /**
- * MVC½á¹¹ÖĞµÄÄ£ĞÍÄ¬ÈÏÊµÏÖ
+ * MVCç»“æ„ä¸­çš„æ¨¡å‹é»˜è®¤å®ç°
  * 
- * ×ÓÀàÖĞÌí¼ÓÊµ¼ÊÒâÒåµÄ³ÉÔ±ºÍ·½·¨
- * ¸Ã»ùÀàÖ÷Òª¹¹½¨ÁËÄ£ĞÍºÍÊÓÍ¼µÄÁªÏµ
+ * å­ç±»ä¸­æ·»åŠ å®é™…æ„ä¹‰çš„æˆå‘˜å’Œæ–¹æ³•
+ * è¯¥åŸºç±»ä¸»è¦æ„å»ºäº†æ¨¡å‹å’Œè§†å›¾çš„è”ç³»
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-10-15
+ * åˆ›å»ºæ—¥æœŸï¼š2008-10-15
  */
 public abstract class Model implements IModel {
 
-	private List<IView> views;// ×¢²áµÄÊÓÍ¼ÁĞ±í
+	private List<IView> views;// æ³¨å†Œçš„è§†å›¾åˆ—è¡¨
 	
 	public Model() {
 		// do nothing
@@ -34,7 +34,7 @@ public abstract class Model implements IModel {
 	}
 	
 	/**
-	 * ÏòÄ£ĞÍÖĞ×¢²á²ÎÊıÊÓÍ¼
+	 * å‘æ¨¡å‹ä¸­æ³¨å†Œå‚æ•°è§†å›¾
 	 * 
 	 * @see mvc.framework.model.IModel#addView(mvc.framework.view.IView)
 	 */
@@ -43,7 +43,7 @@ public abstract class Model implements IModel {
 	}
 	
 	/**
-	 * É¾³ıÄ£ĞÍÖĞ×¢²áµÄ²ÎÊıÊÓÍ¼ 
+	 * åˆ é™¤æ¨¡å‹ä¸­æ³¨å†Œçš„å‚æ•°è§†å›¾ 
 	 *
 	 * @see mvc.framework.model.IModel#deleteView(mvc.framework.view.IView)
 	 */
@@ -52,7 +52,7 @@ public abstract class Model implements IModel {
 	}
 
 	/**
-	 * Í¨ÖªÊÓÍ¼Ä£ĞÍ±ä¸ü(ÊÓÍ¼¸ù¾İÄ£ĞÍ¸üĞÂ×Ô¼º)
+	 * é€šçŸ¥è§†å›¾æ¨¡å‹å˜æ›´(è§†å›¾æ ¹æ®æ¨¡å‹æ›´æ–°è‡ªå·±)
 	 * 
 	 * @see mvc.framework.model.IModel#notifyViews()
 	 */

@@ -4,30 +4,30 @@
 package principle.LoD;
 
 /**
- * Ä³ÈËÅóÓÑÑİÊ¾Àà
+ * æŸäººæœ‹å‹æ¼”ç¤ºç±»
  * <p>
- * ±¾ÀıµÄÉè¼ÆÊÇÎ¥·´µÏÃ×ÌØ·¨ÔòµÄ
+ * æœ¬ä¾‹çš„è®¾è®¡æ˜¯è¿åè¿ªç±³ç‰¹æ³•åˆ™çš„
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  * 
- * ´´½¨ÈÕÆÚ£º2010-1-31
+ * åˆ›å»ºæ—¥æœŸï¼š2010-1-31
  */
 public class SomeoneFriendDemo {
 
 }
 
 /**
- * Ä³ÈËÀà
+ * æŸäººç±»
  */
 class Someone {
 
 	/**
-	 * ·½·¨µÄ²ÎÊıÊÇFriend¶ÔÏó£¬ËùÒÔSomeoneºÍFriendÊÇÅóÓÑ
+	 * æ–¹æ³•çš„å‚æ•°æ˜¯Friendå¯¹è±¡ï¼Œæ‰€ä»¥Someoneå’ŒFriendæ˜¯æœ‹å‹
 	 */
 	void operation1(Friend friend) {
 		/*
-		 * ·½·¨µÄÊµÏÖÊÇ²»Âú×ãµÏÃ×ÌØ·¨ÔòµÄ£º
-		 * ÒòÎªËüÒıÓÃÁËStranger¶ÔÏó£¬¶øStranger²»ÊÇSomeoneµÄÅóÓÑ
+		 * æ–¹æ³•çš„å®ç°æ˜¯ä¸æ»¡è¶³è¿ªç±³ç‰¹æ³•åˆ™çš„ï¼š
+		 * å› ä¸ºå®ƒå¼•ç”¨äº†Strangerå¯¹è±¡ï¼Œè€ŒStrangerä¸æ˜¯Someoneçš„æœ‹å‹
 		 */
 		Stranger stranger = friend.provide();
 		stranger.operation3();
@@ -35,11 +35,11 @@ class Someone {
 }
 
 /**
- * Ä³ÈËµÄÅóÓÑÀà
+ * æŸäººçš„æœ‹å‹ç±»
  */
 class Friend {
 
-	// Friend³ÖÓĞÒ»¸öStranger¶ÔÏó£¬ËùÒÔFriendºÍStrangerÊÇÅóÓÑ
+	// FriendæŒæœ‰ä¸€ä¸ªStrangerå¯¹è±¡ï¼Œæ‰€ä»¥Friendå’ŒStrangeræ˜¯æœ‹å‹
 	private Stranger stranger = new Stranger();
 
 	Stranger provide() {
@@ -48,7 +48,7 @@ class Friend {
 }
 
 /**
- * ¶ÔÄ³ÈË¶øÑÔµÄÄ°ÉúÈËÀà
+ * å¯¹æŸäººè€Œè¨€çš„é™Œç”Ÿäººç±»
  */
 class Stranger {
 

@@ -10,13 +10,13 @@ import mvc.framework.view.View;
 import mvc.util.CenteredFrame;
 
 /**
- * Ó¦ÓÃ³ÌĞòJFrame»ùÀà
+ * åº”ç”¨ç¨‹åºJFrameåŸºç±»
  * 
- * ¸ÃÀà¸ºÔğ×é×°MVCµÄÈı¸ö×é¼ş£¬Ê¹Èı¸ö×é¼şÄÜ¹»½øĞĞÏûÏ¢´«µİ
+ * è¯¥ç±»è´Ÿè´£ç»„è£…MVCçš„ä¸‰ä¸ªç»„ä»¶ï¼Œä½¿ä¸‰ä¸ªç»„ä»¶èƒ½å¤Ÿè¿›è¡Œæ¶ˆæ¯ä¼ é€’
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-10-15
+ * åˆ›å»ºæ—¥æœŸï¼š2008-10-15
  */
 public abstract class AppFrame extends CenteredFrame {
 	
@@ -25,8 +25,8 @@ public abstract class AppFrame extends CenteredFrame {
 	 */
 	private static final long serialVersionUID = 5242642963087026877L;
 	
-	private IModel model;// Ä£ĞÍ
-	// ÊÓÍ¼ÁĞ±í(Ã¿¸öÊÓÍ¼µÄ¿ØÖÆÆ÷Ó¦¸Ã¶¼ÒÑ¾­°üº¬ÔÚÊÓÍ¼ÖĞ)
+	private IModel model;// æ¨¡å‹
+	// è§†å›¾åˆ—è¡¨(æ¯ä¸ªè§†å›¾çš„æ§åˆ¶å™¨åº”è¯¥éƒ½å·²ç»åŒ…å«åœ¨è§†å›¾ä¸­)
 	private List<View> views;
 
 	public AppFrame() {
@@ -36,7 +36,7 @@ public abstract class AppFrame extends CenteredFrame {
 
 	/**
 	 * @param title
-	 *            ±êÌâ
+	 *            æ ‡é¢˜
 	 */
 	public AppFrame(String title) {
 		super(title);
@@ -44,7 +44,7 @@ public abstract class AppFrame extends CenteredFrame {
 	}
 	
 	/**
-	 * ³õÊ¼»¯
+	 * åˆå§‹åŒ–
 	 */
 	private void init() {
 		this.model = createModel();
@@ -54,17 +54,17 @@ public abstract class AppFrame extends CenteredFrame {
 	}
 
 	/**
-	 * ´´½¨Ê¹ÓÃµÄÄ£ĞÍ
+	 * åˆ›å»ºä½¿ç”¨çš„æ¨¡å‹
 	 */
 	protected abstract IModel createModel();
 
 	/**
-	 * ´´½¨ËùÓĞÊÓÍ¼µÄÁĞ±í
+	 * åˆ›å»ºæ‰€æœ‰è§†å›¾çš„åˆ—è¡¨
 	 */
 	protected abstract List<View> createViews();
 
 	/**
-	 * ³õÊ¼»¯ ½«ÊÓÍ¼È«²¿×¢²áµ½Ä£ĞÍÖĞ
+	 * åˆå§‹åŒ– å°†è§†å›¾å…¨éƒ¨æ³¨å†Œåˆ°æ¨¡å‹ä¸­
 	 */
 	private void initialize() {
 		for (View view : getViews()) {
@@ -73,19 +73,19 @@ public abstract class AppFrame extends CenteredFrame {
 	}
 	
 	/**
-	 * ³õÊ¼»¯UI
+	 * åˆå§‹åŒ–UI
 	 */
 	protected abstract void initUI();
 
 	/**
-	 * @return Ä£ĞÍ
+	 * @return æ¨¡å‹
 	 */
 	public IModel getModel() {
 		return model;
 	}
 
 	/**
-	 * @return ÊÓÍ¼ÁĞ±í
+	 * @return è§†å›¾åˆ—è¡¨
 	 */
 	public List<View> getViews() {
 		return views;

@@ -6,28 +6,28 @@ package mvc.framework.controller;
 import mvc.framework.view.IView;
 
 /**
- * MVC½á¹¹ÖĞµÄ¿ØÖÆÆ÷Ä¬ÈÏÊµÏÖ
+ * MVCç»“æ„ä¸­çš„æ§åˆ¶å™¨é»˜è®¤å®ç°
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-10-15
+ * åˆ›å»ºæ—¥æœŸï¼š2008-10-15
  */
 public abstract class Controller implements IController {
 
-	private IView view;// ËùÊôµÄÊÓÍ¼
+	private IView view;// æ‰€å±çš„è§†å›¾
 
 	/**
-	 * ÎªÊÓÍ¼´´½¨Ò»¸ö¿ØÖÆÆ÷
+	 * ä¸ºè§†å›¾åˆ›å»ºä¸€ä¸ªæ§åˆ¶å™¨
 	 * 
 	 * @param view
-	 *            ÊÓÍ¼
+	 *            è§†å›¾
 	 */
 	public Controller(IView view) {
 		this.view = view;
 	}
 
 	/**
-	 * @return ËùÊôµÄÊÓÍ¼
+	 * @return æ‰€å±çš„è§†å›¾
 	 */
 	public IView getView() {
 		return view;

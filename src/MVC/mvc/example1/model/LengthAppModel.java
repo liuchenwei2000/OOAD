@@ -6,15 +6,15 @@ package mvc.example1.model;
 import mvc.framework.model.Model;
 
 /**
- * ³¤¶È»»Ëãmodel
+ * é•¿åº¦æ¢ç®—model
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-11-3
+ * åˆ›å»ºæ—¥æœŸï¼š2008-11-3
  */
 public class LengthAppModel extends Model {
 
-	private double meter;// Ä¬ÈÏµ¥Î»ÊÇ Ã×
+	private double meter;// é»˜è®¤å•ä½æ˜¯ ç±³
 
 	public LengthAppModel() {
 		super();
@@ -22,17 +22,17 @@ public class LengthAppModel extends Model {
 	}
 
 	/**
-	 * @return Ã×
+	 * @return ç±³
 	 */
 	public double getMeter() {
 		return meter;
 	}
 
 	/**
-	 * ÉèÖÃĞÂµÄÊı¾İ»áÍ¨ÖªÊÓÍ¼
+	 * è®¾ç½®æ–°çš„æ•°æ®ä¼šé€šçŸ¥è§†å›¾
 	 * 
 	 * @param meter
-	 *            Ã×
+	 *            ç±³
 	 */
 	public void setMeter(double meter) {
 		this.meter = meter;

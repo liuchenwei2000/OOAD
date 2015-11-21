@@ -4,11 +4,11 @@
 package ioc.v2;
 
 /**
- * RobotÑİÊ¾Àà
+ * Robotæ¼”ç¤ºç±»
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2009-5-12
+ * åˆ›å»ºæ—¥æœŸï¼š2009-5-12
  */
 public class RobotDemo {
 	
@@ -17,7 +17,7 @@ public class RobotDemo {
 	 */
 	public static void main(String[] args) {
 		Robot robot = new Robot("wall.e");
-		// ÕâÑùRobot¶ÔÏó¾Í¿ÉÒÔÈ¥Ö´ĞĞ²»Í¬µÄCommand
+		// è¿™æ ·Robotå¯¹è±¡å°±å¯ä»¥å»æ‰§è¡Œä¸åŒçš„Command
 		ICommand command = new CupCommand();
 		robot.setCommand(command);
 		try {

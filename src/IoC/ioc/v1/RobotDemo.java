@@ -4,11 +4,11 @@
 package ioc.v1;
 
 /**
- * RobotÑİÊ¾Àà
+ * Robotæ¼”ç¤ºç±»
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2009-5-12
+ * åˆ›å»ºæ—¥æœŸï¼š2009-5-12
  */
 public class RobotDemo {
 
@@ -18,7 +18,7 @@ public class RobotDemo {
 	public static void main(String[] args) {
 		Robot robot = new Robot("wall.e");
 		try {
-			// robotÖ»ÄÜÈ¥È¡±­×Ó
+			// robotåªèƒ½å»å–æ¯å­
 			@SuppressWarnings("unused")
 			Cup cup = robot.fetchOnCommand();
 		} catch (CupNotFoundException e) {

@@ -4,16 +4,16 @@
 package mvc.framework.view;
 
 /**
- * MVC½á¹¹ÖĞµÄÊÓÍ¼½Ó¿Ú
+ * MVCç»“æ„ä¸­çš„è§†å›¾æ¥å£
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-10-15
+ * åˆ›å»ºæ—¥æœŸï¼š2008-10-15
  */
 public interface IView {
 
 	/**
-	 * ¸ù¾İÄ£ĞÍ¸üĞÂÊÓÍ¼
+	 * æ ¹æ®æ¨¡å‹æ›´æ–°è§†å›¾
 	 */
 	public void updateView();
 }

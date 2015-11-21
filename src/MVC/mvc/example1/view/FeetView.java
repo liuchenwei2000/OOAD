@@ -13,11 +13,11 @@ import mvc.framework.view.View;
 import mvc.util.ComponentBuilder;
 
 /**
- * Ó¢³ß ÊÓÍ¼
+ * è‹±å°º è§†å›¾
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-11-3
+ * åˆ›å»ºæ—¥æœŸï¼š2008-11-3
  */
 public class FeetView extends View {
 
@@ -42,7 +42,7 @@ public class FeetView extends View {
 
 	private JLabel getLabel() {
 		if (label == null) {
-			label = ComponentBuilder.buildCommonLabel("Ó¢³ß");
+			label = ComponentBuilder.buildCommonLabel("è‹±å°º");
 		}
 		return label;
 	}
@@ -55,7 +55,7 @@ public class FeetView extends View {
 	}
 
 	/**
-	 * ¸ù¾İÄ£ĞÍµÄÃ×»»Ëã³ÉÓ¢³ßÈ»ºóË¢ĞÂÏÔÊ¾
+	 * æ ¹æ®æ¨¡å‹çš„ç±³æ¢ç®—æˆè‹±å°ºç„¶ååˆ·æ–°æ˜¾ç¤º
 	 * 
 	 * @see mvc.framework.view.View#updateView()
 	 */

@@ -16,26 +16,26 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
 /**
- * ¹«ÓÃ×é¼ş¹¤¾ßÀà
+ * å…¬ç”¨ç»„ä»¶å·¥å…·ç±»
  *
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨Ê±¼ä£º2008-9-11
+ * åˆ›å»ºæ—¶é—´ï¼š2008-9-11
  */
 public class ComponentBuilder {
 	
-	/** ÊäÈë¿ò ¿í¶È */
+	/** è¾“å…¥æ¡† å®½åº¦ */
 	public static final int WIDTH = 140;
-	/** Ò»°ã¿Ø¼ş ¸ß¶È */
+	/** ä¸€èˆ¬æ§ä»¶ é«˜åº¦ */
 	public static final int HEIGHT = 21;
 	
 	/**
-	 * ·µ»Ø±êÇ©ºÍ×é¼şµÄ¹«ÓÃÃæ°å(Ë®Æ½²¼¾Ö)
+	 * è¿”å›æ ‡ç­¾å’Œç»„ä»¶çš„å…¬ç”¨é¢æ¿(æ°´å¹³å¸ƒå±€)
 	 * 
 	 * @param label
-	 *            ±êÇ©
+	 *            æ ‡ç­¾
 	 * @param textField
-	 *            ÊäÈë¿ò
+	 *            è¾“å…¥æ¡†
 	 */
 	public static JPanel buildLabelComponentPanel(JLabel label, JComponent com) {
 		JPanel panel = new JPanel();
@@ -45,12 +45,12 @@ public class ComponentBuilder {
 	}
 
 	/**
-	 * ·µ»ØÊäÈë¿òºÍ°´Å¥Ãæ°å(Ë®Æ½²¼¾Ö)
+	 * è¿”å›è¾“å…¥æ¡†å’ŒæŒ‰é’®é¢æ¿(æ°´å¹³å¸ƒå±€)
 	 * 
 	 * @param textField
-	 *            ÊäÈë¿ò
+	 *            è¾“å…¥æ¡†
 	 * @param button
-	 *            °´Å¥
+	 *            æŒ‰é’®
 	 */
 	public static JPanel buildTextFieldButtonPanel(JTextField textField, JButton button) {
 		JPanel panel = new JPanel();
@@ -61,22 +61,22 @@ public class ComponentBuilder {
 	}
 	
 	/**
-	 * ·µ»Ø¸ù¾İÃû³Æ¹¹½¨µÄ¹«ÓÃ±êÇ© 
-	 * (ÄÚÈİÏòÓÒ¿¿Æë¡¢14ºÅÆÕÍ¨ËÎÌå)
+	 * è¿”å›æ ¹æ®åç§°æ„å»ºçš„å…¬ç”¨æ ‡ç­¾ 
+	 * (å†…å®¹å‘å³é é½ã€14å·æ™®é€šå®‹ä½“)
 	 * 
 	 * @param name
-	 *            ±êÇ©Ãû
+	 *            æ ‡ç­¾å
 	 */
 	public static JLabel buildCommonLabel(String name) {
 		JLabel label = new JLabel(name);
 		label.setPreferredSize(new Dimension(WIDTH, HEIGHT));
 		label.setHorizontalAlignment(SwingConstants.LEADING);
-		label.setFont(new Font("ËÎÌå", Font.PLAIN, 14));
+		label.setFont(new Font("å®‹ä½“", Font.PLAIN, 14));
 		return label;
 	}
 
 	/**
-	 * @return ·µ»Ø¹«ÓÃÊäÈë¿ò
+	 * @return è¿”å›å…¬ç”¨è¾“å…¥æ¡†
 	 */
 	public static JTextField buildCommonTextField() {
 		JTextField textField = new JTextField();
@@ -86,7 +86,7 @@ public class ComponentBuilder {
 	}
 	
 	/**
-	 * @return ·µ»Ø¹«ÓÃÃÜÂëÊäÈë¿ò
+	 * @return è¿”å›å…¬ç”¨å¯†ç è¾“å…¥æ¡†
 	 */
 	public static JPasswordField buildCommonPasswordField() {
 		JPasswordField pwField = new JPasswordField();
@@ -96,11 +96,11 @@ public class ComponentBuilder {
 	}
 	
 	/**
-	 * @return ·µ»Ø¹«ÓÃ°´Å¥
+	 * @return è¿”å›å…¬ç”¨æŒ‰é’®
 	 */
 	public static JButton buildCommonButton(String name) {
 		JButton button = new JButton(name);
-		button.setFont(new Font("ËÎÌå", Font.PLAIN, 12));
+		button.setFont(new Font("å®‹ä½“", Font.PLAIN, 12));
 		return button;
 	}
 }

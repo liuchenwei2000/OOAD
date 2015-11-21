@@ -11,24 +11,24 @@ import mvc.framework.controller.Controller;
 import mvc.framework.view.IView;
 
 /**
- * Ã×ÊÓÍ¼µÄ¿ØÖÆÆ÷
+ * ç±³è§†å›¾çš„æ§åˆ¶å™¨
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-11-3
+ * åˆ›å»ºæ—¥æœŸï¼š2008-11-3
  */
 public class MeterController extends Controller implements ActionListener{
 
 	/**
 	 * @param view
-	 *            ¹ØÁªµÄÊÓÍ¼
+	 *            å…³è”çš„è§†å›¾
 	 */
 	public MeterController(IView view) {
 		super(view);
 	}
 
 	/**
-	 * ÊÓÍ¼µÄÊÂ¼ş´¦Àí
+	 * è§†å›¾çš„äº‹ä»¶å¤„ç†
 	 *
 	 * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)
 	 */

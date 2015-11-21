@@ -9,11 +9,11 @@ import java.awt.Toolkit;
 import javax.swing.JFrame;
 
 /**
- * ¾ÓÖĞÏÔÊ¾µÄJFrame
+ * å±…ä¸­æ˜¾ç¤ºçš„JFrame
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-11-3
+ * åˆ›å»ºæ—¥æœŸï¼š2008-11-3
  */
 public abstract class CenteredFrame extends JFrame {
 	
@@ -31,21 +31,21 @@ public abstract class CenteredFrame extends JFrame {
 	}
 
 	/**
-	 * ÉèÖÃJFrame¾ÓÖĞÏÔÊ¾
+	 * è®¾ç½®JFrameå±…ä¸­æ˜¾ç¤º
 	 */
 	public void setCenter() {
-		int windowWidth = getWidth(); // »ñµÃ´°¿Ú¿í
-		int windowHeight = getHeight(); // »ñµÃ´°¿Ú¸ß
-		Toolkit kit = Toolkit.getDefaultToolkit(); // ¶¨Òå¹¤¾ß°ü
-		Dimension screenSize = kit.getScreenSize(); // »ñÈ¡ÆÁÄ»µÄ³ß´ç
-		int screenWidth = screenSize.width; // »ñÈ¡ÆÁÄ»µÄ¿í
-		int screenHeight = screenSize.height; // »ñÈ¡ÆÁÄ»µÄ¸ß
+		int windowWidth = getWidth(); // è·å¾—çª—å£å®½
+		int windowHeight = getHeight(); // è·å¾—çª—å£é«˜
+		Toolkit kit = Toolkit.getDefaultToolkit(); // å®šä¹‰å·¥å…·åŒ…
+		Dimension screenSize = kit.getScreenSize(); // è·å–å±å¹•çš„å°ºå¯¸
+		int screenWidth = screenSize.width; // è·å–å±å¹•çš„å®½
+		int screenHeight = screenSize.height; // è·å–å±å¹•çš„é«˜
 		setLocation(screenWidth / 2 - windowWidth / 2, screenHeight / 2
-				- windowHeight / 2);// ÉèÖÃ´°¿Ú¾ÓÖĞÏÔÊ¾
+				- windowHeight / 2);// è®¾ç½®çª—å£å±…ä¸­æ˜¾ç¤º
 	}
 
 	/**
-	 * ÏÔÊ¾ÉèÖÃ(Ä¬ÈÏ¾ÓÖĞÏÔÊ¾)
+	 * æ˜¾ç¤ºè®¾ç½®(é»˜è®¤å±…ä¸­æ˜¾ç¤º)
 	 * 
 	 * @see java.awt.Component#setVisible(boolean)
 	 */

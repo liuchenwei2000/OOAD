@@ -17,11 +17,11 @@ import mvc.framework.model.IModel;
 import mvc.framework.view.View;
 
 /**
- * ³¤¶È»»ËãÑİÊ¾Frame
+ * é•¿åº¦æ¢ç®—æ¼”ç¤ºFrame
  * 
- * @author Áõ³¿Î°
+ * @author åˆ˜æ™¨ä¼Ÿ
  *
- * ´´½¨ÈÕÆÚ£º2008-10-15
+ * åˆ›å»ºæ—¥æœŸï¼š2008-10-15
  */
 public class LengthAppFrame extends AppFrame {
 	
@@ -31,11 +31,11 @@ public class LengthAppFrame extends AppFrame {
 	private static final long serialVersionUID = -6188884184166645296L;
 
 	public LengthAppFrame() {
-		super("³¤¶È»»Ëã");
+		super("é•¿åº¦æ¢ç®—");
 	}
 
 	/**
-	 * ³õÊ¼»¯UI£¬½«view¼ÓÈëµ½frameÖĞ
+	 * åˆå§‹åŒ–UIï¼Œå°†viewåŠ å…¥åˆ°frameä¸­
 	 *
 	 * @see mvc.framework.AppFrame#initUI()
 	 */
@@ -47,7 +47,7 @@ public class LengthAppFrame extends AppFrame {
 	}
 
 	/**
-	 * ´´½¨model
+	 * åˆ›å»ºmodel
 	 *
 	 * @see mvc.framework.AppFrame#createModel()
 	 */
@@ -56,7 +56,7 @@ public class LengthAppFrame extends AppFrame {
 	}
 
 	/**
-	 * ´´½¨viewÁĞ±í
+	 * åˆ›å»ºviewåˆ—è¡¨
 	 *
 	 * @see mvc.framework.AppFrame#createViews()
 	 */
